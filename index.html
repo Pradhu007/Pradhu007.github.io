@@ -1,8 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            background-color: #f3f4f6;
+            color: #1f2937;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #2563eb;
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+            padding: 0;
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2.5rem;
+            margin: 1.25rem;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 0.5rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        p {
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <nav>
+        <div class="container">
+            <h1 style="color: white; font-size: 1.25rem; font-weight: bold;">My Website</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#everything">Everything</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="home">
+        <h2>Welcome to My Website</h2>
+        <p>This is my personal space on the web.</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am passionate about technology, programming, and web development.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my projects that I have worked on.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at myemail@example.com.</p>
+    </section>
+    
+    <section id="everything">
+        <h2>Everything</h2>
+        <p>A collection of my thoughts, ideas, and random stuff.</p>
+    </section>
 </body>
 </html>
-
